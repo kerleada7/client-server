@@ -1,6 +1,6 @@
 import json
 
-from variables import MAX_MESSAGE_LEN, ENCODING
+from Lesson_5.util.variables import MAX_MESSAGE_LEN, ENCODING
 
 
 def send_message(socket_, message):

@@ -4,8 +4,7 @@ import re
 from socket import *
 from time import time
 
-import client_log_config
-from variables import DEFAULT_PORT
+from util.variables import DEFAULT_PORT
 from utilities import send_message, get_message
 
 client_log = logging.getLogger('client')

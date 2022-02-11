@@ -1,7 +1,8 @@
 import logging.handlers
 import os
 
-from variables import LOGGING_LEVEL
+from util.variables import LOGGING_LEVEL
+import log.server_log_config
 
 log_file_path = os.path.dirname(__file__)
 log_file_path = os.path.split(log_file_path)[0]
